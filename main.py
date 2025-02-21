@@ -17,7 +17,7 @@ ps = PorterStemmer()
 # Загрузите свой набор данных с ответами и сохраните их в переменной corpus
 corpus = []
 
-with open("fas.txt", "r", encoding="utf-8") as file:
+with open("answer.txt", "r", encoding="utf-8") as file:
     current_answer = ""
     for line in file:
         line = line.strip()
